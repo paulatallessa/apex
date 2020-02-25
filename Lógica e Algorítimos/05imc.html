@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>05 - indice de Massa Corporal </title>
+
+<script>
+  // Obter peso 
+  let peso = parseFloat(prompt("Informe o seu peso"))
+
+  //obter altura
+  let altura = parseFloat(prompt("informe sua altura"))
+
+  //Cálculo de imc
+  let imc = peso / Math.pow(altura, 2)
+  
+  // Exibir cálculo
+  document.write("seu IMC é de "+imc.toFixed(2))
+
+  //pular linha
+  document.write("<br>")
+
+  //Condicionaç
+
+if(imc <18.5){
+    document.write("Abaixo do peso")
+} else if (imc<25){
+    document.write("peso nomal")
+}else if (imc<30 ){
+document.write("sobrepeso") 
+}else if (imc<35){
+document.write("obesidade I")
+}else if (imc <40){
+documente.write("obesidade II")
+}else {
+    document.write("Obesidade III")
+}
+
+
+
+
+
+
+
+
+
+
+
+      
+  
+
+</script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
